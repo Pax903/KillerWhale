@@ -39,6 +39,8 @@ WHEELS = {
 
 # Keys the DUO here doesn't have: the right side unit is a trackball.
 ABSENT = {"RUP", "RDOWN", "RLEFT", "RRIGHT", "RJOY"}
+# No wheel top unit on this DUO.
+ABSENT_WHEELS = {"top"}
 
 # kinds: key (plain), mod, layer (layer key), here (the key holding this
 # layer), hypr (SUPER + …), media, mouse, sym, nav, cfg (stock special key),
@@ -68,9 +70,7 @@ LAYERS = [
         "note": "QWERTY. Tap/hold keys show tap above hold.",
         "keys": BASE_KEYS, "full": True,
         "wheels": {
-            0: ("Esc", "Tab"), 1: ("Redo", "Undo"),
             2: ("Vol −", "Vol +"), 3: ("Vol −", "Vol +"),
-            4: ("Del", "Bksp"), 5: ("↑", "↓"),
             6: ("Scroll ↑", "Scroll ↓"), 7: ("Scroll ↑", "Scroll ↓"),
         },
     },
@@ -166,12 +166,35 @@ LAYERS = [
     },
     {
         "file": "layer1-game", "title": "1 · Game  (left toggle switch on)",
-        "note": "Tap/hold keys become plain keys so held keys stay keys.",
+        "note": "Number row = F1–F10, J K L = mouse buttons, numbers around "
+                "them. Hold left side key 2 for Game 2.",
         "here": "LTOG",
         "keys": {
             "CTL": ("Ctrl", "mod"), "Z": ("Z", "key"), "S": ("S", "key"),
-            "L": ("L", "key"), "4": ("4", "key"), "7": ("7", "key"),
-            "LSIDE1": ("Space", "key"),
+            **{n: (f"F{n}", "nav") for n in "1 2 3 4 5 6 7 8 9".split()},
+            "0": ("F10", "nav"),
+            "LSIDE1": ("Space", "key"), "LSIDE2": ("Game 2", "layer"),
+            "J": ("Click", "mouse"), "K": ("Right|click", "mouse"),
+            "L": ("Middle", "mouse"),
+            "Y": ("1", "key"), "U": ("2", "key"), "I": ("3", "key"),
+            "O": ("4", "key"), "P": ("5", "key"),
+            "N": ("6", "key"), "M": ("7", "key"), "COMM": ("8", "key"),
+            "DOT": ("9", "key"), "SLSH": ("0", "key"),
+        },
+        "wheels": {},
+    },
+    {
+        "file": "layer3-game2", "title": "3 · Game 2  (in Game: hold left side key 2)",
+        "note": "Everything Game moved away: the numbers, the letters "
+                "under the clicks and numbers, F11 / F12, auto mouse on / off.",
+        "here": "LSIDE2", "here_label": "Game 2", "below": "layer1-game",
+        "keys": {
+            "ESC": ("F11", "nav"), "BSPC": ("F12", "nav"),
+            **{n: (n, "key") for n in "1 2 3 4 5 6 7 8 9 0".split()},
+            **{n: (n, "key") for n in "Y U I O P H J K L N M".split()},
+            "SCLN": (";", "key"), "COMM": (",", "key"), "DOT": (".", "key"),
+            "SLSH": ("/", "key"),
+            "LSCRL": ("Auto|mouse", "cfg"),
         },
         "wheels": {},
     },
@@ -269,7 +292,14 @@ def render(layer, pos, names):
             r = U * 0.47
             cx, cy = px + w * U / 2, py + h * U / 2
             pair = wheels.get(n)
-            kind = "absent"
+            kind, text = "absent", ""
+            if WHEELS[n] in ABSENT_WHEELS:
+                fill, ink = COLORS["absent"]
+                s.append(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{r:.1f}" '
+                         f'fill="{fill}" stroke="#bbb" stroke-width="1.5" '
+                         f'stroke-dasharray="4 3"/>')
+                s.append(svg_text(cx, cy, "none|fitted", ink, 9))
+                continue
             if pair is None and not layer.get("full"):
                 text, kind = "▽", "trns"
             elif pair:
@@ -284,7 +314,7 @@ def render(layer, pos, names):
         if name in ABSENT:
             kind, text = "absent", "·"
         elif name == layer.get("here"):
-            text, kind = label_of(BASE_KEYS[name])[0], "here"
+            text, kind = layer.get("here_label") or label_of(BASE_KEYS[name])[0], "here"
         elif name in keys:
             text, kind = label_of(keys[name])
             if kind == "none" and not text:
@@ -292,7 +322,10 @@ def render(layer, pos, names):
         elif layer.get("full"):
             text, kind = name, "key"
         else:
-            text, kind = label_of(BASE_KEYS.get(name, name))[0], "trns"
+            below = next((l["keys"] for l in LAYERS
+                          if l["file"] == layer.get("below")), {})
+            text = label_of(below.get(name, BASE_KEYS.get(name, name)))[0]
+            kind = "trns"
         fill, ink = COLORS[kind]
         stroke = "#c46a00" if kind == "here" else (
             "#555" if color == "#777777" else "#aaa")

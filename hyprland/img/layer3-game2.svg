@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1121" height="666" font-family="DejaVu Sans, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="32" fill="#111" font-size="22" font-weight="700">3 · Game 2  (in Game: hold left side key 2)</text>
+<text x="24" y="52" fill="#555" font-size="14">Everything Game moved away: the numbers, the letters under the clicks and numbers, F11 / F12, auto mouse on / off.</text>
+<circle cx="125.5" cy="99.0" r="27.3" fill="#fafafa" stroke="#bbb" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="125.5" y="93.8" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">none</text><text x="125.5" y="104.2" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">fitted</text>
+<circle cx="995.5" cy="99.0" r="27.3" fill="#fafafa" stroke="#bbb" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="995.5" y="93.8" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">none</text><text x="995.5" y="104.2" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">fitted</text>
+<circle cx="53.0" cy="113.5" r="27.3" fill="#fafafa" stroke="#bbb" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="53.0" y="108.3" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">none</text><text x="53.0" y="118.7" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">fitted</text>
+<rect x="229.0" y="86.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="256.0" y="113.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">3</text>
+<rect x="838.0" y="86.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="865.0" y="113.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">8</text>
+<circle cx="1068.0" cy="113.5" r="27.3" fill="#fafafa" stroke="#bbb" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="1068.0" y="108.3" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">none</text><text x="1068.0" y="118.7" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">fitted</text>
+<rect x="171.0" y="101.0" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="198.0" y="128.0" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">2</text>
+<rect x="287.0" y="101.0" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="314.0" y="128.0" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">4</text>
+<rect x="780.0" y="101.0" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="807.0" y="128.0" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">7</text>
+<rect x="896.0" y="101.0" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="923.0" y="128.0" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">9</text>
+<rect x="345.0" y="115.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="372.0" y="142.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">5</text>
+<rect x="722.0" y="115.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="749.0" y="142.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">6</text>
+<rect x="113.0" y="144.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="140.0" y="171.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">1</text>
+<rect x="229.0" y="144.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="256.0" y="171.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">E</text>
+<rect x="838.0" y="144.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="865.0" y="171.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">I</text>
+<rect x="954.0" y="144.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="981.0" y="171.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">0</text>
+<rect x="55.0" y="159.0" width="54.0" height="54.0" rx="6" fill="#e3dcff" stroke="#aaa" stroke-width="1.5"/>
+<text x="82.0" y="186.0" fill="#3d2a8a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">F11</text>
+<rect x="171.0" y="159.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="198.0" y="186.0" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">W</text>
+<rect x="287.0" y="159.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="314.0" y="186.0" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">R</text>
+<rect x="780.0" y="159.0" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="807.0" y="186.0" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">U</text>
+<rect x="896.0" y="159.0" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="923.0" y="186.0" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">O</text>
+<rect x="1012.0" y="159.0" width="54.0" height="54.0" rx="6" fill="#e3dcff" stroke="#aaa" stroke-width="1.5"/>
+<text x="1039.0" y="186.0" fill="#3d2a8a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">F12</text>
+<rect x="345.0" y="173.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="372.0" y="200.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">T</text>
+<rect x="722.0" y="173.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="749.0" y="200.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">Y</text>
+<rect x="113.0" y="202.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="140.0" y="229.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">Q</text>
+<rect x="229.0" y="202.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="256.0" y="229.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">D</text>
+<rect x="838.0" y="202.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="865.0" y="229.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">K</text>
+<rect x="954.0" y="202.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="981.0" y="229.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">P</text>
+<rect x="55.0" y="217.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="82.0" y="244.0" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Tab</text>
+<rect x="171.0" y="217.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="198.0" y="244.0" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">S</text>
+<rect x="287.0" y="217.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="314.0" y="244.0" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">F</text>
+<rect x="780.0" y="217.0" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="807.0" y="244.0" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">J</text>
+<rect x="896.0" y="217.0" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="923.0" y="244.0" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">L</text>
+<rect x="1012.0" y="217.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="1039.0" y="244.0" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Enter</text>
+<rect x="345.0" y="231.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="372.0" y="258.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">G</text>
+<rect x="722.0" y="231.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="749.0" y="258.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">H</text>
+<rect x="446.5" y="246.0" width="83.0" height="54.0" rx="6" fill="#fafafa" stroke="#555" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="488.0" y="273.0" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Game</text>
+<rect x="591.5" y="246.0" width="83.0" height="54.0" rx="6" fill="#fafafa" stroke="#555" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="633.0" y="273.0" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">free</text>
+<rect x="113.0" y="260.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="140.0" y="287.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">A</text>
+<rect x="229.0" y="260.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="256.0" y="287.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">C</text>
+<rect x="838.0" y="260.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="865.0" y="287.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">,</text>
+<rect x="954.0" y="260.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="981.0" y="287.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">;</text>
+<rect x="55.0" y="275.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="82.0" y="302.0" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Ctrl</text>
+<rect x="171.0" y="275.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="198.0" y="302.0" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">X</text>
+<rect x="287.0" y="275.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="314.0" y="302.0" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">V</text>
+<rect x="780.0" y="275.0" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="807.0" y="302.0" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">M</text>
+<rect x="896.0" y="275.0" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="923.0" y="302.0" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">.</text>
+<rect x="1012.0" y="275.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="1039.0" y="302.0" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Shift</text>
+<rect x="345.0" y="289.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="372.0" y="316.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">B</text>
+<rect x="722.0" y="289.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="749.0" y="316.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">N</text>
+<rect x="113.0" y="318.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="140.0" y="345.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">Z</text>
+<circle cx="488.0" cy="345.5" r="27.3" fill="#fafafa" stroke="#888" stroke-width="2"/>
+<text x="488.0" y="345.5" fill="#9a9a9a" font-size="9.5" font-weight="600" text-anchor="middle" dominant-baseline="central">▽</text>
+<text x="488.0" y="380.8" fill="#999" font-size="9" font-weight="400" text-anchor="middle" dominant-baseline="central">ADD wheel</text>
+<circle cx="633.0" cy="345.5" r="27.3" fill="#fafafa" stroke="#888" stroke-width="2"/>
+<text x="633.0" y="345.5" fill="#9a9a9a" font-size="9.5" font-weight="600" text-anchor="middle" dominant-baseline="central">▽</text>
+<text x="633.0" y="380.8" fill="#999" font-size="9" font-weight="400" text-anchor="middle" dominant-baseline="central">ADD wheel</text>
+<rect x="954.0" y="318.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="981.0" y="345.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">/</text>
+<rect x="171.0" y="333.0" width="54.0" height="54.0" rx="6" fill="#e8e8e8" stroke="#aaa" stroke-width="1.5"/>
+<text x="198.0" y="353.7" fill="#555" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Auto</text><text x="198.0" y="366.3" fill="#555" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">mouse</text>
+<rect x="896.0" y="333.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="923.0" y="353.7" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">ball</text><text x="923.0" y="366.3" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">scroll</text>
+<rect x="432.0" y="391.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="459.0" y="418.0" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Alt</text>
+<rect x="490.0" y="391.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="517.0" y="418.0" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Click</text>
+<rect x="577.0" y="391.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="604.0" y="418.0" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Click</text>
+<rect x="635.0" y="391.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="662.0" y="411.7" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Right</text><text x="662.0" y="424.3" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">click</text>
+<rect x="84.0" y="405.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="111.0" y="432.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">↑</text>
+<rect x="983.0" y="405.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="1010.0" y="432.5" fill="#ccc" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">·</text>
+<rect x="287.0" y="434.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="314.0" y="461.5" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Space</text>
+<rect x="780.0" y="434.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="807.0" y="461.5" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Sym</text>
+<circle cx="241.5" cy="476.0" r="27.3" fill="#fafafa" stroke="#888" stroke-width="2"/>
+<text x="241.5" y="476.0" fill="#9a9a9a" font-size="9.5" font-weight="600" text-anchor="middle" dominant-baseline="central">▽</text>
+<text x="241.5" y="511.3" fill="#999" font-size="9" font-weight="400" text-anchor="middle" dominant-baseline="central">side wheel</text>
+<rect x="26.0" y="463.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="53.0" y="490.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">←</text>
+<rect x="84.0" y="463.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#555" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="111.0" y="484.2" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">stick</text><text x="111.0" y="496.8" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">mode</text>
+<rect x="142.0" y="463.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="169.0" y="490.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">→</text>
+<circle cx="879.5" cy="490.5" r="27.3" fill="#fafafa" stroke="#888" stroke-width="2"/>
+<text x="879.5" y="490.5" fill="#9a9a9a" font-size="9.5" font-weight="600" text-anchor="middle" dominant-baseline="central">▽</text>
+<text x="879.5" y="525.8" fill="#999" font-size="9" font-weight="400" text-anchor="middle" dominant-baseline="central">side wheel</text>
+<rect x="925.0" y="463.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="952.0" y="490.5" fill="#ccc" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">·</text>
+<rect x="983.0" y="463.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#555" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="1010.0" y="490.5" fill="#ccc" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">·</text>
+<rect x="1041.0" y="463.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="1068.0" y="490.5" fill="#ccc" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">·</text>
+<rect x="287.0" y="492.5" width="54.0" height="54.0" rx="6" fill="#ff9d2e" stroke="#c46a00" stroke-width="1.5"/>
+<text x="314.0" y="519.5" fill="#fff" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Game 2</text>
+<rect x="780.0" y="492.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="807.0" y="519.5" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Nav</text>
+<rect x="84.0" y="521.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="111.0" y="548.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">↓</text>
+<rect x="983.0" y="521.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="1010.0" y="548.5" fill="#ccc" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">·</text>
+<rect x="24" y="607.5" width="18" height="18" rx="3" fill="#cfe0ff" stroke="#aaa"/>
+<text x="48" y="620.5" font-size="12" fill="#333">SUPER + key (Hyprland / HyprOSD)</text>
+<rect x="269.2" y="607.5" width="18" height="18" rx="3" fill="#ffd9a8" stroke="#aaa"/>
+<text x="293.2" y="620.5" font-size="12" fill="#333">layer key</text>
+<rect x="362.6" y="607.5" width="18" height="18" rx="3" fill="#ff9d2e" stroke="#aaa"/>
+<text x="386.6" y="620.5" font-size="12" fill="#333">held for this layer</text>
+<rect x="522.0" y="607.5" width="18" height="18" rx="3" fill="#d9f0d9" stroke="#aaa"/>
+<text x="546.0" y="620.5" font-size="12" fill="#333">modifier</text>
+<rect x="608.8" y="607.5" width="18" height="18" rx="3" fill="#e3dcff" stroke="#aaa"/>
+<text x="632.8" y="620.5" font-size="12" fill="#333">navigation / F-keys</text>
+<rect x="768.1999999999999" y="607.5" width="18" height="18" rx="3" fill="#ffe0ef" stroke="#aaa"/>
+<text x="792.1999999999999" y="620.5" font-size="12" fill="#333">media</text>
+<rect x="835.1999999999999" y="607.5" width="18" height="18" rx="3" fill="#fff3b0" stroke="#aaa"/>
+<text x="859.1999999999999" y="620.5" font-size="12" fill="#333">symbol</text>
+<rect x="908.8" y="607.5" width="18" height="18" rx="3" fill="#e2f4f7" stroke="#aaa"/>
+<text x="932.8" y="620.5" font-size="12" fill="#333">mouse</text>
+<rect x="24" y="633.5" width="18" height="18" rx="3" fill="#fafafa" stroke="#aaa"/>
+<text x="48" y="646.5" font-size="12" fill="#333">▽ = from the layer below</text>
+</svg>

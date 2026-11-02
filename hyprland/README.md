@@ -31,7 +31,9 @@ The Hyprland side is in [`killerwhale.lua`](killerwhale.lua).
 - **Mouse** stays the stock auto-mouse layer (moves in when the trackball
   moves), plus a middle click.
 - **The toggle switches** become hardware modes: left switch = **Game**
-  (no tap-hold keys), right switch = free for later.
+  (F1–F10 on the number row, mouse buttons on `J K L`, numbers around
+  them, no tap-hold keys) with **Game 2** under the left thumb for
+  everything Game moved away; right switch = free for later.
 - **Wheels**: left = volume (HyprOSD's volume meter shows up), right =
   scroll. In Hypr: left = brightness, right = previous / next workspace.
   In Nav: left = cursor ← →, right = page up / down.
@@ -43,7 +45,7 @@ The Hyprland side is in [`killerwhale.lua`](killerwhale.lua).
 | 0 | Base | always |
 | 1 | Game | left toggle switch on |
 | 2 | (free) | right toggle switch on |
-| 3 | (free) | — |
+| 3 | Game 2 | in Game: hold left side key 2 |
 | 4 | Hypr | hold left side key 1 |
 | 5 | Nav | hold right side key 1 |
 | 6 | Sym | hold right side key 2 |
@@ -229,11 +231,43 @@ Super while the trackball moves — otherwise `SUPER + drag` would scroll.
 
 ![layer1-game](img/layer1-game.png)
 
-The tap-hold keys turn plain so held keys don't turn into modifiers or
-layers mid-game: caps spot `KC_LCTL`, `Z` `KC_Z`, `S` `KC_S`, `L` `KC_L`,
-`4` `KC_4`, `7` `KC_7`, left SIDE1 `KC_SPC`. Everything else `▽`. (No auto
-mouse change: turn it off with `Toggle Auto Mouse` in layer 8 if it gets in
-the way.)
+For games that put the right hand on the trackball: clicks under the right
+fingers, numbers (inventory slots) around them, F-keys on the number row.
+
+| Key | Remap | Does |
+|-----|-------|------|
+| `1`–`0` | `KC_F1` … `KC_F10` | F1–F10 |
+| `J` `K` `L` | `KC_BTN1` `KC_BTN2` `KC_BTN3` | left / right / middle click |
+| `Y U I O P` | `KC_1` … `KC_5` | 1–5 (row above the clicks) |
+| `N M , . /` | `KC_6` … `KC_9`, `KC_0` | 6–0 (row below the clicks) |
+| caps spot | `KC_LCTL` | plain Ctrl (no Esc on tap) |
+| `Z`, `S` | `KC_Z`, `KC_S` | plain keys (no Shift / mouse layer on hold) |
+| left SIDE1 | `KC_SPC` | Space (no Hypr layer while gaming) |
+| left SIDE2 | `MO(3)` | hold for **Game 2** |
+
+`H` and `;` stay `h` and `;`. Everything else is `▽` (Base).
+
+## 3 — Game 2 (in Game: hold left SIDE2)
+
+![layer3-game2](img/layer3-game2.png)
+
+What Game took away, back under one held thumb key:
+
+| Key | Remap | Does |
+|-----|-------|------|
+| number row | `KC_1` … `KC_0` | 1–0 |
+| `Y U I O P`, `H J K L ;`, `N M , . /` | the letters / `KC_SCLN` `KC_COMM` `KC_DOT` `KC_SLSH` | normal letters (e.g. for chat) |
+| `ESC` | `KC_F11` | F11 |
+| `BSPC` | `KC_F12` | F12 |
+| left SCROLL | `Toggle Auto Mouse` (stock key) | auto mouse on / off |
+
+Everything else `▽` (comes from Game).
+
+**Auto mouse while gaming:** the auto-mouse layer (7) sits above Game, so
+right after the trackball moves `D` and `F` become right / left click for
+about ¾ s, which breaks `WASD`. Turn auto mouse off with Game 2 + left
+SCROLL when you start a game (and on again after); the `J K L` clicks don't
+need it.
 
 ## Wheels
 
@@ -242,20 +276,20 @@ layout, ↺ = turn one way, ↻ = the other). Remap numbers them e0–e7:
 
 | Wheel | Left | Right |
 |-------|------|-------|
-| top unit (two per side, corners) | e0, e1 | e5, e4 |
+| top unit (corners; **not fitted** on this DUO) | e0, e1 | e5, e4 |
 | side unit (by the joystick / trackball) | e2 | e6 |
 | ADD unit (next to the toggle) | e3 | e7 |
 
 The side-unit and ADD wheels on one side get **the same keys**, so the plan
-works whichever of the two you have. The top wheels keep the stock keys
-(Esc/Tab, Redo/Undo, Del/Bksp, ↑/↓) in case you add the wheel top unit.
+works whichever of the two you have. There is no wheel top unit, so e0,
+e1, e4, e5 are left as they are.
 
 | Layer | Left wheel (e2, e3) ↺ / ↻ | Right wheel (e6, e7) ↺ / ↻ |
 |-------|---------------------------|----------------------------|
 | 0 Base | `KC_VOLD` / `KC_VOLU` — volume (HyprOSD meter) | `KC_WH_U` / `KC_WH_D` — scroll |
 | 4 Hypr | `KC_BRID` / `KC_BRIU` — brightness (HyprOSD meter) | `LGUI(KC_PGUP)` / `LGUI(KC_PGDN)` — previous / next workspace |
 | 5 Nav | `KC_LEFT` / `KC_RGHT` — cursor ← → | `KC_PGUP` / `KC_PGDN` — page up / down |
-| others | `▽` | `▽` |
+| others (Sym, Mouse, Game, Game 2) | `▽` | `▽` |
 
 If a wheel turns the "wrong" way for you, swap its two keys.
 

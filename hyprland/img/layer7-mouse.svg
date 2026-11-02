@@ -2,22 +2,18 @@
 <rect width="100%" height="100%" fill="#ffffff"/>
 <text x="24" y="32" fill="#111" font-size="22" font-weight="700">7 · Mouse  (auto: move the trackball)</text>
 <text x="24" y="52" fill="#555" font-size="14">Stock auto-mouse layer plus a middle click on U; Super stays Super so SUPER + drag works while the ball moves.</text>
-<circle cx="125.5" cy="99.0" r="27.3" fill="#fafafa" stroke="#888" stroke-width="2"/>
-<text x="125.5" y="99.0" fill="#9a9a9a" font-size="9.5" font-weight="600" text-anchor="middle" dominant-baseline="central">▽</text>
-<text x="125.5" y="134.3" fill="#999" font-size="9" font-weight="400" text-anchor="middle" dominant-baseline="central">top wheel</text>
-<circle cx="995.5" cy="99.0" r="27.3" fill="#fafafa" stroke="#888" stroke-width="2"/>
-<text x="995.5" y="99.0" fill="#9a9a9a" font-size="9.5" font-weight="600" text-anchor="middle" dominant-baseline="central">▽</text>
-<text x="995.5" y="134.3" fill="#999" font-size="9" font-weight="400" text-anchor="middle" dominant-baseline="central">top wheel</text>
-<circle cx="53.0" cy="113.5" r="27.3" fill="#fafafa" stroke="#888" stroke-width="2"/>
-<text x="53.0" y="113.5" fill="#9a9a9a" font-size="9.5" font-weight="600" text-anchor="middle" dominant-baseline="central">▽</text>
-<text x="53.0" y="148.8" fill="#999" font-size="9" font-weight="400" text-anchor="middle" dominant-baseline="central">top wheel</text>
+<circle cx="125.5" cy="99.0" r="27.3" fill="#fafafa" stroke="#bbb" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="125.5" y="93.8" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">none</text><text x="125.5" y="104.2" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">fitted</text>
+<circle cx="995.5" cy="99.0" r="27.3" fill="#fafafa" stroke="#bbb" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="995.5" y="93.8" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">none</text><text x="995.5" y="104.2" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">fitted</text>
+<circle cx="53.0" cy="113.5" r="27.3" fill="#fafafa" stroke="#bbb" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="53.0" y="108.3" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">none</text><text x="53.0" y="118.7" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">fitted</text>
 <rect x="229.0" y="86.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
 <text x="256.0" y="113.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">3</text>
 <rect x="838.0" y="86.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
 <text x="865.0" y="113.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">8</text>
-<circle cx="1068.0" cy="113.5" r="27.3" fill="#fafafa" stroke="#888" stroke-width="2"/>
-<text x="1068.0" y="113.5" fill="#9a9a9a" font-size="9.5" font-weight="600" text-anchor="middle" dominant-baseline="central">▽</text>
-<text x="1068.0" y="148.8" fill="#999" font-size="9" font-weight="400" text-anchor="middle" dominant-baseline="central">top wheel</text>
+<circle cx="1068.0" cy="113.5" r="27.3" fill="#fafafa" stroke="#bbb" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="1068.0" y="108.3" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">none</text><text x="1068.0" y="118.7" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">fitted</text>
 <rect x="171.0" y="101.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
 <text x="198.0" y="128.0" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">2</text>
 <rect x="287.0" y="101.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
