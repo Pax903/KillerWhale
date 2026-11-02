@@ -34,6 +34,7 @@ The Hyprland side is in [`killerwhale.lua`](killerwhale.lua).
   (no tap-hold keys), right switch = free for later.
 - **Wheels**: left = volume (HyprOSD's volume meter shows up), right =
   scroll. In Hypr: left = brightness, right = previous / next workspace.
+  In Nav: left = cursor ← →, right = page up / down.
 
 ## Layer numbers (Remap shows 0–9)
 
@@ -54,6 +55,16 @@ Keep 7 and 8 as the stock firmware has them: the auto-mouse layer number is
 compiled in (`AUTO_MOUSE_DEFAULT_LAYER 7`), and layer 8 holds the
 trackball/joystick speed and angle keys.
 
+## Pictures
+
+Each layer below has a picture drawn on Remap's own layout of the DUO (the
+same key positions you click in Remap), wheels included. Colors: blue =
+`SUPER + key`, orange = layer keys (dark orange = the key you hold for that
+layer), green = modifiers, dashed grey = `▽` (comes from the layer below),
+`✕` = does nothing, dotted `·` = keys your DUO doesn't have (the right side
+unit is a trackball). They're made by `tools/render.py` from the same
+plan; rerun it after changing the plan (`--png` for the PNGs).
+
 ## How to read the maps
 
 Each map shows a half the way Remap draws it. `▽` = transparent (falls
@@ -69,6 +80,8 @@ trackball side those positions don't exist), **ADD1 / ADD2**, the ADD
 **wheel** and the **toggle** switch.
 
 ## 0 — Base
+
+![layer0-base](img/layer0-base.png)
 
 ```
 LEFT                                      RIGHT
@@ -103,8 +116,6 @@ Side, joystick and ADD:
 | right ADD1 / ADD2 | `KC_BTN1` / `KC_BTN2` | same |
 | left toggle | `MO(1)` — **Game** | `MO(1)` |
 | right toggle | `MO(2)` | `MO(2)` |
-| left wheel | ↺ `KC_VOLD` ↻ `KC_VOLU` | mouse wheel |
-| right wheel | ↺ `KC_WH_U` ↻ `KC_WH_D` | same |
 
 The joystick keys only fire while the joystick is in **key mode**; press
 the joystick to cycle its modes (key / cursor / scroll / game). With the
@@ -115,6 +126,8 @@ scroll mode are the useful ones. Try both.
 > SIDE2 (`KC_LALT` on the side key, `MO(6)` on the ADD key).
 
 ## 4 — Hypr (hold left SIDE1)
+
+![layer4-hypr](img/layer4-hypr.png)
 
 Every entry sends Super plus the key. HyprOSD's own binds come from its
 README; the rest are bound in `killerwhale.lua`.
@@ -152,14 +165,14 @@ Last   Close Wksp ✕   ✕    Tray                ✕    ✕    ✕    ✕    �
 | left SIDE2 (Space) | `LGUI(KC_SPC)` | HyprOSD glance |
 | right SIDE1 | `LSG(KC_SPC)` | HyprOSD HUD toggle (`SUPER + SHIFT + Space`) |
 | joystick ↑ ↓ ← → | `LSG(KC_K)` `LSG(KC_J)` `LSG(KC_H)` `LSG(KC_L)` | move the window |
-| left wheel | ↺ `KC_BRID` ↻ `KC_BRIU` | brightness (HyprOSD meter) |
-| right wheel | ↺ `LGUI(KC_PGUP)` ↻ `LGUI(KC_PGDN)` | previous / next workspace |
 | everything else | `✕` (`KC_NO`) | so a slip doesn't type a letter |
 
 Caps spot (Ctrl), `Z` (Shift), right Shift, left SCROLL (Super), the
 mouse buttons and the joystick press stay `▽`.
 
 ## 5 — Nav (hold right SIDE1)
+
+![layer5-nav](img/layer5-nav.png)
 
 ```
 LEFT                                      RIGHT
@@ -180,6 +193,8 @@ LEFT                                      RIGHT
   `killerwhale.lua` (or your own).
 
 ## 6 — Sym (hold right SIDE2)
+
+![layer6-sym](img/layer6-sym.png)
 
 Unshifted symbols on the top row, so Shift gives their partner (`[`→`{`,
 `-`→`_` …); the second row has the shifted ones ready-made.
@@ -202,17 +217,47 @@ is still on `Z/S` on the left and on the right in every other layer.
 
 ## 7 — Mouse (auto mouse)
 
+![layer7-mouse](img/layer7-mouse.png)
+
 The stock layer: `D` right click, `F` left click, `G` scroll (left);
 `H` scroll, `J` left click, `K` right click (right); `Z` / `/` slow down.
 Added: **`U` = middle click** (`KC_BTN3`), above `J`.
+Changed: the left SCROLL key is `▽` here (stock: scroll), so it stays
+Super while the trackball moves — otherwise `SUPER + drag` would scroll.
 
 ## 1 — Game (left toggle on)
+
+![layer1-game](img/layer1-game.png)
 
 The tap-hold keys turn plain so held keys don't turn into modifiers or
 layers mid-game: caps spot `KC_LCTL`, `Z` `KC_Z`, `S` `KC_S`, `L` `KC_L`,
 `4` `KC_4`, `7` `KC_7`, left SIDE1 `KC_SPC`. Everything else `▽`. (No auto
 mouse change: turn it off with `Toggle Auto Mouse` in layer 8 if it gets in
 the way.)
+
+## Wheels
+
+Every wheel can have its own keys per layer (Remap: the round keys in the
+layout, ↺ = turn one way, ↻ = the other). Remap numbers them e0–e7:
+
+| Wheel | Left | Right |
+|-------|------|-------|
+| top unit (two per side, corners) | e0, e1 | e5, e4 |
+| side unit (by the joystick / trackball) | e2 | e6 |
+| ADD unit (next to the toggle) | e3 | e7 |
+
+The side-unit and ADD wheels on one side get **the same keys**, so the plan
+works whichever of the two you have. The top wheels keep the stock keys
+(Esc/Tab, Redo/Undo, Del/Bksp, ↑/↓) in case you add the wheel top unit.
+
+| Layer | Left wheel (e2, e3) ↺ / ↻ | Right wheel (e6, e7) ↺ / ↻ |
+|-------|---------------------------|----------------------------|
+| 0 Base | `KC_VOLD` / `KC_VOLU` — volume (HyprOSD meter) | `KC_WH_U` / `KC_WH_D` — scroll |
+| 4 Hypr | `KC_BRID` / `KC_BRIU` — brightness (HyprOSD meter) | `LGUI(KC_PGUP)` / `LGUI(KC_PGDN)` — previous / next workspace |
+| 5 Nav | `KC_LEFT` / `KC_RGHT` — cursor ← → | `KC_PGUP` / `KC_PGDN` — page up / down |
+| others | `▽` | `▽` |
+
+If a wheel turns the "wrong" way for you, swap its two keys.
 
 ## Entering it in Remap
 
@@ -223,8 +268,8 @@ the way.)
 3. Layer by layer: click a key, drag the new key onto it, or use the
    **Any** key and type the expression from the tables (e.g.
    `LGUI(KC_D)`). Layer-tap / mod-tap also have their own tabs.
-4. Wheels: Remap's encoder settings per layer (the wheel next to the
-   joystick/trackball is the ADD unit's).
+4. Wheels: click the round keys in each layer and set ↺ / ↻ from the
+   **Wheels** table.
 5. **Flash**, then save the result as a keymap in Remap.
 6. Add `killerwhale.lua` to Hyprland (below).
 
