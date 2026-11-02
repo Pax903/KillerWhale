@@ -45,7 +45,7 @@ The Hyprland side is in [`killerwhale.lua`](killerwhale.lua).
 | 0 | Base | always |
 | 1 | Game | left toggle switch on |
 | 2 | (free) | right toggle switch on |
-| 3 | Game 2 | in Game: hold left side key 2 |
+| 3 | Game 2 | in Game: hold left side key 1 |
 | 4 | Hypr | hold left side key 1 |
 | 5 | Nav | hold right side key 1 |
 | 6 | Sym | hold right side key 2 |
@@ -240,14 +240,16 @@ fingers, numbers (inventory slots) around them, F-keys on the number row.
 | `J` `K` `L` | `KC_BTN1` `KC_BTN2` `KC_BTN3` | left / right / middle click |
 | `Y U I O P` | `KC_1` … `KC_5` | 1–5 (row above the clicks) |
 | `N M , . /` | `KC_6` … `KC_9`, `KC_0` | 6–0 (row below the clicks) |
+| `E` `S` `D` `F` | `KC_W` `KC_A` `KC_S` `KC_D` | WASD, one key to the right (fingers stay on the home row) |
 | caps spot | `KC_LCTL` | plain Ctrl (no Esc on tap) |
-| `Z`, `S` | `KC_Z`, `KC_S` | plain keys (no Shift / mouse layer on hold) |
-| left SIDE1 | `KC_SPC` | Space (no Hypr layer while gaming) |
-| left SIDE2 | `MO(3)` | hold for **Game 2** |
+| `Z` | `KC_Z` | plain Z (no Shift on hold) |
+| left SIDE1 | `MO(3)` | hold for **Game 2** (no Hypr layer while gaming) |
+| left SIDE2 | `KC_SPC` | Space |
 
-`H` and `;` stay `h` and `;`. Everything else is `▽` (Base).
+`W` and `A` stay `w` and `a`, `H` and `;` stay `h` and `;`; `e`, `d`, `f`
+are on Game 2. Everything else is `▽` (Base).
 
-## 3 — Game 2 (in Game: hold left SIDE2)
+## 3 — Game 2 (in Game: hold left SIDE1)
 
 ![layer3-game2](img/layer3-game2.png)
 
@@ -257,6 +259,7 @@ What Game took away, back under one held thumb key:
 |-----|-------|------|
 | number row | `KC_1` … `KC_0` | 1–0 |
 | `Y U I O P`, `H J K L ;`, `N M , . /` | the letters / `KC_SCLN` `KC_COMM` `KC_DOT` `KC_SLSH` | normal letters (e.g. for chat) |
+| `E` `S` `D` `F` | `KC_E` `KC_S` `KC_D` `KC_F` | the real letters |
 | `ESC` | `KC_F11` | F11 |
 | `BSPC` | `KC_F12` | F12 |
 | left SCROLL | `Toggle Auto Mouse` (stock key) | auto mouse on / off |
@@ -265,7 +268,7 @@ Everything else `▽` (comes from Game).
 
 **Auto mouse while gaming:** the auto-mouse layer (7) sits above Game, so
 right after the trackball moves `D` and `F` become right / left click for
-about ¾ s, which breaks `WASD`. Turn auto mouse off with Game 2 + left
+about ¾ s, which breaks movement. Turn auto mouse off with Game 2 + left
 SCROLL when you start a game (and on again after); the `J K L` clicks don't
 need it.
 

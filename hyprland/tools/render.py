@@ -167,13 +167,15 @@ LAYERS = [
     {
         "file": "layer1-game", "title": "1 · Game  (left toggle switch on)",
         "note": "Number row = F1–F10, J K L = mouse buttons, numbers around "
-                "them. Hold left side key 2 for Game 2.",
+                "them, WASD on E S D F. Hold left side key 1 for Game 2.",
         "here": "LTOG",
         "keys": {
-            "CTL": ("Ctrl", "mod"), "Z": ("Z", "key"), "S": ("S", "key"),
+            "CTL": ("Ctrl", "mod"), "Z": ("Z", "key"),
             **{n: (f"F{n}", "nav") for n in "1 2 3 4 5 6 7 8 9".split()},
             "0": ("F10", "nav"),
-            "LSIDE1": ("Space", "key"), "LSIDE2": ("Game 2", "layer"),
+            "LSIDE1": ("Game 2", "layer"), "LSIDE2": ("Space", "key"),
+            "E": ("W", "game"), "S": ("A", "game"), "D": ("S", "game"),
+            "F": ("D", "game"),
             "J": ("Click", "mouse"), "K": ("Right|click", "mouse"),
             "L": ("Middle", "mouse"),
             "Y": ("1", "key"), "U": ("2", "key"), "I": ("3", "key"),
@@ -184,10 +186,10 @@ LAYERS = [
         "wheels": {},
     },
     {
-        "file": "layer3-game2", "title": "3 · Game 2  (in Game: hold left side key 2)",
+        "file": "layer3-game2", "title": "3 · Game 2  (in Game: hold left side key 1)",
         "note": "Everything Game moved away: the numbers, the letters "
-                "under the clicks and numbers, F11 / F12, auto mouse on / off.",
-        "here": "LSIDE2", "here_label": "Game 2", "below": "layer1-game",
+                "under the clicks, numbers and WASD, F11 / F12, auto mouse on / off.",
+        "here": "LSIDE1", "here_label": "Game 2", "below": "layer1-game",
         "keys": {
             "ESC": ("F11", "nav"), "BSPC": ("F12", "nav"),
             **{n: (n, "key") for n in "1 2 3 4 5 6 7 8 9 0".split()},
@@ -195,6 +197,7 @@ LAYERS = [
             "SCLN": (";", "key"), "COMM": (",", "key"), "DOT": (".", "key"),
             "SLSH": ("/", "key"),
             "LSCRL": ("Auto|mouse", "cfg"),
+            **{n: (n, "key") for n in "E S D F".split()},
         },
         "wheels": {},
     },
@@ -211,6 +214,7 @@ COLORS = {  # fill, text
     "sym": ("#fff3b0", "#6b5600"),
     "mouse": ("#e2f4f7", "#145866"),
     "cfg": ("#e8e8e8", "#555"),
+    "game": ("#c9f2c9", "#145214"),
     "none": ("#fafafa", "#bbb"),
     "trns": ("#fafafa", "#9a9a9a"),
     "absent": ("#fafafa", "#ccc"),
@@ -218,7 +222,7 @@ COLORS = {  # fill, text
 LEGEND = [("hypr", "SUPER + key (Hyprland / HyprOSD)"),
           ("layer", "layer key"), ("here", "held for this layer"),
           ("mod", "modifier"), ("nav", "navigation / F-keys"),
-          ("media", "media"), ("sym", "symbol"), ("mouse", "mouse"),
+          ("media", "media"), ("game", "game movement"), ("sym", "symbol"), ("mouse", "mouse"),
           ("trns", "▽ = from the layer below")]
 
 U = 58           # pixels per key unit
@@ -343,7 +347,7 @@ def render(layer, pos, names):
                  f'fill="{fill}" stroke="#aaa"/>')
         s.append(f'<text x="{lx + 24}" y="{ly + 13}" font-size="12" '
                  f'fill="#333">{escape(desc)}</text>')
-        lx += 34 + len(desc) * 6.6
+        lx += 40 + len(desc) * 7.2
         if lx > width - 200:
             lx, ly = PAD, ly + 26
     s.append("</svg>")

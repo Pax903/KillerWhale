@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1121" height="666" font-family="DejaVu Sans, sans-serif">
 <rect width="100%" height="100%" fill="#ffffff"/>
 <text x="24" y="32" fill="#111" font-size="22" font-weight="700">1 · Game  (left toggle switch on)</text>
-<text x="24" y="52" fill="#555" font-size="14">Number row = F1–F10, J K L = mouse buttons, numbers around them. Hold left side key 2 for Game 2.</text>
+<text x="24" y="52" fill="#555" font-size="14">Number row = F1–F10, J K L = mouse buttons, numbers around them, WASD on E S D F. Hold left side key 1 for Game 2.</text>
 <circle cx="125.5" cy="99.0" r="27.3" fill="#fafafa" stroke="#bbb" stroke-width="1.5" stroke-dasharray="4 3"/>
 <text x="125.5" y="93.8" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">none</text><text x="125.5" y="104.2" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">fitted</text>
 <circle cx="995.5" cy="99.0" r="27.3" fill="#fafafa" stroke="#bbb" stroke-width="1.5" stroke-dasharray="4 3"/>
@@ -28,8 +28,8 @@
 <text x="749.0" y="142.5" fill="#3d2a8a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">F6</text>
 <rect x="113.0" y="144.5" width="54.0" height="54.0" rx="6" fill="#e3dcff" stroke="#aaa" stroke-width="1.5"/>
 <text x="140.0" y="171.5" fill="#3d2a8a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">F1</text>
-<rect x="229.0" y="144.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
-<text x="256.0" y="171.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">E</text>
+<rect x="229.0" y="144.5" width="54.0" height="54.0" rx="6" fill="#c9f2c9" stroke="#aaa" stroke-width="1.5"/>
+<text x="256.0" y="171.5" fill="#145214" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">W</text>
 <rect x="838.0" y="144.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
 <text x="865.0" y="171.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">3</text>
 <rect x="954.0" y="144.5" width="54.0" height="54.0" rx="6" fill="#e3dcff" stroke="#aaa" stroke-width="1.5"/>
@@ -52,18 +52,18 @@
 <text x="749.0" y="200.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">1</text>
 <rect x="113.0" y="202.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
 <text x="140.0" y="229.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">Q</text>
-<rect x="229.0" y="202.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
-<text x="256.0" y="229.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">D</text>
+<rect x="229.0" y="202.5" width="54.0" height="54.0" rx="6" fill="#c9f2c9" stroke="#aaa" stroke-width="1.5"/>
+<text x="256.0" y="229.5" fill="#145214" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">S</text>
 <rect x="838.0" y="202.5" width="54.0" height="54.0" rx="6" fill="#e2f4f7" stroke="#aaa" stroke-width="1.5"/>
 <text x="865.0" y="223.2" fill="#145866" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Right</text><text x="865.0" y="235.8" fill="#145866" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">click</text>
 <rect x="954.0" y="202.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
 <text x="981.0" y="229.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">5</text>
 <rect x="55.0" y="217.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
 <text x="82.0" y="244.0" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Tab</text>
-<rect x="171.0" y="217.0" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
-<text x="198.0" y="244.0" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">S</text>
-<rect x="287.0" y="217.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
-<text x="314.0" y="244.0" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">F</text>
+<rect x="171.0" y="217.0" width="54.0" height="54.0" rx="6" fill="#c9f2c9" stroke="#aaa" stroke-width="1.5"/>
+<text x="198.0" y="244.0" fill="#145214" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">A</text>
+<rect x="287.0" y="217.0" width="54.0" height="54.0" rx="6" fill="#c9f2c9" stroke="#aaa" stroke-width="1.5"/>
+<text x="314.0" y="244.0" fill="#145214" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">D</text>
 <rect x="780.0" y="217.0" width="54.0" height="54.0" rx="6" fill="#e2f4f7" stroke="#aaa" stroke-width="1.5"/>
 <text x="807.0" y="244.0" fill="#145866" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Click</text>
 <rect x="896.0" y="217.0" width="54.0" height="54.0" rx="6" fill="#e2f4f7" stroke="#aaa" stroke-width="1.5"/>
@@ -128,8 +128,8 @@
 <text x="111.0" y="432.5" fill="#9a9a9a" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">↑</text>
 <rect x="983.0" y="405.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
 <text x="1010.0" y="432.5" fill="#ccc" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">·</text>
-<rect x="287.0" y="434.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
-<text x="314.0" y="461.5" fill="#222" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Space</text>
+<rect x="287.0" y="434.5" width="54.0" height="54.0" rx="6" fill="#ffd9a8" stroke="#aaa" stroke-width="1.5"/>
+<text x="314.0" y="461.5" fill="#7a4300" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Game 2</text>
 <rect x="780.0" y="434.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
 <text x="807.0" y="461.5" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Sym</text>
 <circle cx="241.5" cy="476.0" r="27.3" fill="#fafafa" stroke="#888" stroke-width="2"/>
@@ -150,8 +150,8 @@
 <text x="1010.0" y="490.5" fill="#ccc" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">·</text>
 <rect x="1041.0" y="463.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
 <text x="1068.0" y="490.5" fill="#ccc" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">·</text>
-<rect x="287.0" y="492.5" width="54.0" height="54.0" rx="6" fill="#ffd9a8" stroke="#aaa" stroke-width="1.5"/>
-<text x="314.0" y="519.5" fill="#7a4300" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Game 2</text>
+<rect x="287.0" y="492.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
+<text x="314.0" y="519.5" fill="#222" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Space</text>
 <rect x="780.0" y="492.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
 <text x="807.0" y="519.5" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Nav</text>
 <rect x="84.0" y="521.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
@@ -160,20 +160,22 @@
 <text x="1010.0" y="548.5" fill="#ccc" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">·</text>
 <rect x="24" y="607.5" width="18" height="18" rx="3" fill="#cfe0ff" stroke="#aaa"/>
 <text x="48" y="620.5" font-size="12" fill="#333">SUPER + key (Hyprland / HyprOSD)</text>
-<rect x="269.2" y="607.5" width="18" height="18" rx="3" fill="#ffd9a8" stroke="#aaa"/>
-<text x="293.2" y="620.5" font-size="12" fill="#333">layer key</text>
-<rect x="362.6" y="607.5" width="18" height="18" rx="3" fill="#ff9d2e" stroke="#aaa"/>
-<text x="386.6" y="620.5" font-size="12" fill="#333">held for this layer</text>
-<rect x="522.0" y="607.5" width="18" height="18" rx="3" fill="#d9f0d9" stroke="#aaa"/>
-<text x="546.0" y="620.5" font-size="12" fill="#333">modifier</text>
-<rect x="608.8" y="607.5" width="18" height="18" rx="3" fill="#e3dcff" stroke="#aaa"/>
-<text x="632.8" y="620.5" font-size="12" fill="#333">navigation / F-keys</text>
-<rect x="768.1999999999999" y="607.5" width="18" height="18" rx="3" fill="#ffe0ef" stroke="#aaa"/>
-<text x="792.1999999999999" y="620.5" font-size="12" fill="#333">media</text>
-<rect x="835.1999999999999" y="607.5" width="18" height="18" rx="3" fill="#fff3b0" stroke="#aaa"/>
-<text x="859.1999999999999" y="620.5" font-size="12" fill="#333">symbol</text>
-<rect x="908.8" y="607.5" width="18" height="18" rx="3" fill="#e2f4f7" stroke="#aaa"/>
-<text x="932.8" y="620.5" font-size="12" fill="#333">mouse</text>
-<rect x="24" y="633.5" width="18" height="18" rx="3" fill="#fafafa" stroke="#aaa"/>
-<text x="48" y="646.5" font-size="12" fill="#333">▽ = from the layer below</text>
+<rect x="294.4" y="607.5" width="18" height="18" rx="3" fill="#ffd9a8" stroke="#aaa"/>
+<text x="318.4" y="620.5" font-size="12" fill="#333">layer key</text>
+<rect x="399.2" y="607.5" width="18" height="18" rx="3" fill="#ff9d2e" stroke="#aaa"/>
+<text x="423.2" y="620.5" font-size="12" fill="#333">held for this layer</text>
+<rect x="576.0" y="607.5" width="18" height="18" rx="3" fill="#d9f0d9" stroke="#aaa"/>
+<text x="600.0" y="620.5" font-size="12" fill="#333">modifier</text>
+<rect x="673.6" y="607.5" width="18" height="18" rx="3" fill="#e3dcff" stroke="#aaa"/>
+<text x="697.6" y="620.5" font-size="12" fill="#333">navigation / F-keys</text>
+<rect x="850.4000000000001" y="607.5" width="18" height="18" rx="3" fill="#ffe0ef" stroke="#aaa"/>
+<text x="874.4000000000001" y="620.5" font-size="12" fill="#333">media</text>
+<rect x="24" y="633.5" width="18" height="18" rx="3" fill="#c9f2c9" stroke="#aaa"/>
+<text x="48" y="646.5" font-size="12" fill="#333">game movement</text>
+<rect x="157.60000000000002" y="633.5" width="18" height="18" rx="3" fill="#fff3b0" stroke="#aaa"/>
+<text x="181.60000000000002" y="646.5" font-size="12" fill="#333">symbol</text>
+<rect x="240.8" y="633.5" width="18" height="18" rx="3" fill="#e2f4f7" stroke="#aaa"/>
+<text x="264.8" y="646.5" font-size="12" fill="#333">mouse</text>
+<rect x="316.8" y="633.5" width="18" height="18" rx="3" fill="#fafafa" stroke="#aaa"/>
+<text x="340.8" y="646.5" font-size="12" fill="#333">▽ = from the layer below</text>
 </svg>
