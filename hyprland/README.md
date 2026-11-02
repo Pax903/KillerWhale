@@ -144,9 +144,9 @@ README; the rest are bound in `killerwhale.lua`.
 ```
 LEFT                                           RIGHT
 Power  W1   W2   W3   W4   W5                  W6   W7   W8   W9   W10  ✕
-Last   Close Wksp ✕   ✕    Tray                ✕    ✕    ✕    ✕    ✕   Term
+Last   Close Wksp Wall ✕    Tray                ✕    ✕    ✕    ✕    ✕   Term
 ▽      Ctrl  Shot Menu Full Float              ←    ↓    ↑    →    ✕    ▽
-       ▽     ✕    Clock Clip Batt              Notif ✕   ✕    ✕    ✕
+       ▽     ✕    Clock Clip Batt              Notif Mix  ✕    ✕    ✕
             ▽                                                ▽
 ```
 
@@ -158,6 +158,7 @@ Last   Close Wksp ✕   ✕    Tray                ✕    ✕    ✕    ✕    �
 | `TAB` | `LGUI(KC_TAB)` | back to the previous workspace |
 | `Q` | `LGUI(KC_Q)` | close the window |
 | `W` | `LGUI(KC_W)` | HyprOSD workspaces |
+| `E` | `LSG(KC_W)` | HyprOSD wallpaper picker (`SUPER + SHIFT + W`) |
 | `T` | `LGUI(KC_T)` | HyprOSD tray |
 | `A` | `LGUI(KC_A)` | HyprOSD control center |
 | `S` | `LGUI(KC_S)` | HyprOSD screenshot menu |
@@ -168,6 +169,7 @@ Last   Close Wksp ✕   ✕    Tray                ✕    ✕    ✕    ✕    �
 | `V` | `LGUI(KC_V)` | HyprOSD clipboard history |
 | `B` | `LGUI(KC_B)` | HyprOSD battery |
 | `N` | `LGUI(KC_N)` | HyprOSD notifications |
+| `M` | `LGUI(KC_M)` | HyprOSD audio mixer |
 | `H J K L` | `LGUI(KC_H)` … `LGUI(KC_L)` | focus left / down / up / right |
 | right Shift + `H J K L` | — | `SUPER + SHIFT + h/j/k/l`: move the window |
 | `ENT` | `LGUI(KC_ENT)` | terminal |

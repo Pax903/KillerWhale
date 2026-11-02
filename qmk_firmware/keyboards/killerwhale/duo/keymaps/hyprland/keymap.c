@@ -109,7 +109,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
   [HYPR] = LAYOUT(
         G(KC_ESC), G(KC_1), G(KC_2), G(KC_3), G(KC_4), G(KC_5),
-        G(KC_TAB), G(KC_Q), G(KC_W), XXXXXXX, XXXXXXX, G(KC_T),
+        G(KC_TAB), G(KC_Q), G(KC_W), LSG(KC_W), XXXXXXX, G(KC_T),
         _______,   G(KC_A), G(KC_S), G(KC_D), G(KC_F), G(KC_G),
                    _______, XXXXXXX, G(KC_C), G(KC_V), G(KC_B),
                             _______,
@@ -119,7 +119,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         G(KC_6), G(KC_7), G(KC_8), G(KC_9), G(KC_0), XXXXXXX,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, G(KC_ENT),
         G(KC_H), G(KC_J), G(KC_K), G(KC_L), XXXXXXX, _______,
-        G(KC_N), XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+        G(KC_N), G(KC_M), XXXXXXX, XXXXXXX, XXXXXXX,
                                    _______,
         LSG(KC_SPC), XXXXXXX,
         _______, _______, _______, _______,          _______,
