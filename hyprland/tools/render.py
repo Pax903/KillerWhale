@@ -188,7 +188,7 @@ LAYERS = [
     {
         "file": "layer3-game2", "title": "3 · Game 2  (in Game: hold left side key 1)",
         "note": "Everything Game moved away: the numbers, the letters "
-                "under the clicks, numbers and WASD, F11 / F12, auto mouse on / off.",
+                "under the clicks, numbers and WASD, F11 / F12.",
         "here": "LSIDE1", "here_label": "Game 2", "below": "layer1-game",
         "keys": {
             "ESC": ("F11", "nav"), "BSPC": ("F12", "nav"),
@@ -196,7 +196,6 @@ LAYERS = [
             **{n: (n, "key") for n in "Y U I O P H J K L N M".split()},
             "SCLN": (";", "key"), "COMM": (",", "key"), "DOT": (".", "key"),
             "SLSH": ("/", "key"),
-            "LSCRL": ("Auto|mouse", "cfg"),
             **{n: (n, "key") for n in "E S D F".split()},
         },
         "wheels": {},

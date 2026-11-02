@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1121" height="666" font-family="DejaVu Sans, sans-serif">
 <rect width="100%" height="100%" fill="#ffffff"/>
 <text x="24" y="32" fill="#111" font-size="22" font-weight="700">3 · Game 2  (in Game: hold left side key 1)</text>
-<text x="24" y="52" fill="#555" font-size="14">Everything Game moved away: the numbers, the letters under the clicks, numbers and WASD, F11 / F12, auto mouse on / off.</text>
+<text x="24" y="52" fill="#555" font-size="14">Everything Game moved away: the numbers, the letters under the clicks, numbers and WASD, F11 / F12.</text>
 <circle cx="125.5" cy="99.0" r="27.3" fill="#fafafa" stroke="#bbb" stroke-width="1.5" stroke-dasharray="4 3"/>
 <text x="125.5" y="93.8" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">none</text><text x="125.5" y="104.2" fill="#ccc" font-size="9" font-weight="600" text-anchor="middle" dominant-baseline="central">fitted</text>
 <circle cx="995.5" cy="99.0" r="27.3" fill="#fafafa" stroke="#bbb" stroke-width="1.5" stroke-dasharray="4 3"/>
@@ -112,8 +112,8 @@
 <text x="633.0" y="380.8" fill="#999" font-size="9" font-weight="400" text-anchor="middle" dominant-baseline="central">ADD wheel</text>
 <rect x="954.0" y="318.5" width="54.0" height="54.0" rx="6" fill="#f4f4f4" stroke="#aaa" stroke-width="1.5"/>
 <text x="981.0" y="345.5" fill="#222" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">/</text>
-<rect x="171.0" y="333.0" width="54.0" height="54.0" rx="6" fill="#e8e8e8" stroke="#aaa" stroke-width="1.5"/>
-<text x="198.0" y="353.7" fill="#555" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Auto</text><text x="198.0" y="366.3" fill="#555" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">mouse</text>
+<rect x="171.0" y="333.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="198.0" y="360.0" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Super</text>
 <rect x="896.0" y="333.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
 <text x="923.0" y="353.7" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">ball</text><text x="923.0" y="366.3" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">scroll</text>
 <rect x="432.0" y="391.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>

@@ -1,0 +1,35 @@
+name: Firmware
+
+on:
+  push:
+    paths:
+      - "qmk_firmware/**"
+      - ".github/workflows/firmware.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: ghcr.io/qmk/qmk_cli
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get QMK
+        run: |
+          git clone --depth 1 https://github.com/qmk/qmk_firmware /qmk
+          cd /qmk
+          make git-submodule
+
+      - name: Build the hyprland keymap
+        run: |
+          cp -r qmk_firmware/keyboards/killerwhale /qmk/keyboards/
+          cd /qmk
+          qmk compile -kb killerwhale/duo -km hyprland
+          qmk compile -kb killerwhale/duo -km default
+          mkdir -p "$GITHUB_WORKSPACE/out"
+          cp *.uf2 "$GITHUB_WORKSPACE/out/"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: killerwhale_duo_hyprland
+          path: out/*.uf2

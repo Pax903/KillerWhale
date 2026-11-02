@@ -5,9 +5,16 @@ A layer plan for a **Killer Whale DUO** with a **joystick on the left**, a
 switch) on each side**, using QWERTY, Hyprland (Lua config) and
 [HyprOSD](https://github.com/Pax903/HyprOSD).
 
-Phase 1 (now): click these layers in with [Remap](https://remap-keys.app)
-on the stock DUO firmware. Phase 2 (later): the same plan as a QMK keymap in
-`qmk_firmware/keyboards/killerwhale/duo/keymaps/`, once it has settled.
+Two ways to get it onto the keyboard:
+
+- **Custom firmware (recommended):** the whole plan is already in
+  [`keymaps/hyprland/keymap.c`](../qmk_firmware/keyboards/killerwhale/duo/keymaps/hyprland/keymap.c),
+  and it does one thing Remap can't: **auto mouse turns off by itself while
+  the Game toggle is on**. GitHub builds the `.uf2` — see
+  [Custom firmware](#custom-firmware).
+- **Remap on the stock firmware:** click the layers in by hand with
+  [Remap](https://remap-keys.app) (everything except the automatic auto
+  mouse switch). Remap still works for tweaks on the custom firmware.
 
 The Hyprland side is in [`killerwhale.lua`](killerwhale.lua).
 
@@ -262,15 +269,16 @@ What Game took away, back under one held thumb key:
 | `E` `S` `D` `F` | `KC_E` `KC_S` `KC_D` `KC_F` | the real letters |
 | `ESC` | `KC_F11` | F11 |
 | `BSPC` | `KC_F12` | F12 |
-| left SCROLL | `Toggle Auto Mouse` (stock key) | auto mouse on / off |
 
 Everything else `▽` (comes from Game).
 
 **Auto mouse while gaming:** the auto-mouse layer (7) sits above Game, so
-right after the trackball moves `D` and `F` become right / left click for
-about ¾ s, which breaks movement. Turn auto mouse off with Game 2 + left
-SCROLL when you start a game (and on again after); the `J K L` clicks don't
-need it.
+right after the trackball moves, the `D` and `F` keys (your S and D) would
+become right / left click for about ¾ s. The custom firmware turns auto
+mouse **off when the Game switch goes on and back to your setting when it
+goes off**; the `J K L` clicks don't need it. Remap can't do this (it only
+stores keys): on the stock firmware, turn auto mouse off by hand with
+`Toggle Auto Mouse` (hold `4`, caps spot) before switching to Game.
 
 ## Wheels
 
@@ -324,17 +332,35 @@ previous / next workspace, terminal, `SUPER + drag`), plus the XF86
 media/volume/brightness keys. **Remove any line you already have** in your
 own config (with two binds for one key, Hyprland runs both).
 
-## Phase 2: QMK (later)
+## Custom firmware
 
-Things Remap can't do that are worth moving to a custom keymap once the
-layout feels right:
+The keymap is
+[`qmk_firmware/keyboards/killerwhale/duo/keymaps/hyprland/keymap.c`](../qmk_firmware/keyboards/killerwhale/duo/keymaps/hyprland/keymap.c):
+every layer and wheel from this page, plus the auto mouse switch for Game
+(`housekeeping_task_user()` at its end). It keeps the stock VIA support, so
+Remap still works for changes afterwards.
+
+**Getting the `.uf2`:** GitHub builds it on every push that touches
+`qmk_firmware/` (workflow `.github/workflows/firmware.yml`). Open the
+repository's **Actions** tab → the latest **Firmware** run → **Artifacts**
+→ `killerwhale_duo_hyprland` (a zip with the `.uf2`). You can also start a
+build by hand there (**Run workflow**).
+
+**Flashing** (both halves, one at a time, TRRS cable unplugged):
+
+1. Hold the boot key (see the build guide's customize page) while plugging
+   the half in; a drive called `RPI-RP2` appears.
+2. Copy the `.uf2` onto it; the half restarts.
+3. Do the same for the other half, then connect the TRRS cable and plug in.
+
+A newly built firmware resets what VIA/Remap stored, so the keyboard comes
+up with this keymap (save anything you changed in Remap first). The
+trackball and joystick speed / angle settings may go back to their
+defaults as well; set them again with layer 8 (hold `4` or `7`).
+
+Ideas for later that only firmware can do:
 
 - one key per HyprOSD action without depending on `SUPER` binds (e.g.
   `F13`–`F24`), and per-key tapping terms (`Z` as Shift, `C/E`);
 - the Hypr layer showing on the OLED / changing the LEDs to its own color;
-- Super held while the Hypr key is held + trackball click = window drag;
 - combos (e.g. `J K` = Esc).
-
-The keymap goes in
-`qmk_firmware/keyboards/killerwhale/duo/keymaps/hyprland/` and is built
-into a `.uf2` for both halves.
