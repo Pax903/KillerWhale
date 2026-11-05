@@ -13,6 +13,11 @@
 
 local mod = "SUPER"
 
+-- Lock: the power menu's Lock without the menu. With hypridle running it
+-- asks hypridle (`loginctl lock-session`, its lock_cmd), without it (Awake
+-- on) HyprOSD's own lock screen. Next to L, the usual SUPER + L.
+hl.bind(mod .. " + semicolon", hl.dsp.exec_cmd("qs -c hyprosd ipc call power run lock"))
+
 -- Windows -----------------------------------------------------------------
 hl.bind(mod .. " + Q", hl.dsp.window.close())
 hl.bind(mod .. " + F", hl.dsp.window.fullscreen({ action = "toggle" }))

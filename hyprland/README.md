@@ -145,7 +145,7 @@ README; the rest are bound in `killerwhale.lua`.
 LEFT                                           RIGHT
 Power  W1   W2   W3   W4   W5                  W6   W7   W8   W9   W10  ✕
 Last   Close Wksp Wall ✕    Tray                ✕    ✕    ✕    ✕    ✕   Term
-▽      Ctrl  Shot Menu Full Float              ←    ↓    ↑    →    ✕    ▽
+▽      Ctrl  Shot Menu Full Float              ←    ↓    ↑    →    Lock ▽
        ▽     ✕    Clock Clip Batt              Notif Mix  ✕    ✕    ✕
             ▽                                                ▽
 ```
@@ -172,6 +172,7 @@ Last   Close Wksp Wall ✕    Tray                ✕    ✕    ✕    ✕    �
 | `M` | `LGUI(KC_M)` | HyprOSD audio mixer |
 | `H J K L` | `LGUI(KC_H)` … `LGUI(KC_L)` | focus left / down / up / right |
 | right Shift + `H J K L` | — | `SUPER + SHIFT + h/j/k/l`: move the window |
+| `;` | `LGUI(KC_SCLN)` | lock the screen (HyprOSD's lock screen, through the power menu's Lock) |
 | `ENT` | `LGUI(KC_ENT)` | terminal |
 | left SIDE2 (Space) | `LGUI(KC_SPC)` | HyprOSD glance |
 | right SIDE1 | `LSG(KC_SPC)` | HyprOSD HUD toggle (`SUPER + SHIFT + Space`) |

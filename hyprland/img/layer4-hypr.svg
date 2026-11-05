@@ -84,8 +84,8 @@
 <text x="256.0" y="287.5" fill="#173d8a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Clock</text>
 <rect x="838.0" y="260.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5"/>
 <text x="865.0" y="287.5" fill="#bbb" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">✕</text>
-<rect x="954.0" y="260.5" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5"/>
-<text x="981.0" y="287.5" fill="#bbb" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">✕</text>
+<rect x="954.0" y="260.5" width="54.0" height="54.0" rx="6" fill="#cfe0ff" stroke="#aaa" stroke-width="1.5"/>
+<text x="981.0" y="287.5" fill="#173d8a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Lock</text>
 <rect x="55.0" y="275.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 3"/>
 <text x="82.0" y="295.7" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Esc</text><text x="82.0" y="308.3" fill="#9a9a9a" font-size="11" font-weight="600" text-anchor="middle" dominant-baseline="central">Ctrl</text>
 <rect x="171.0" y="275.0" width="54.0" height="54.0" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5"/>

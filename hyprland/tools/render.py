@@ -95,7 +95,7 @@ LAYERS = [
             "O": ("", "none"), "P": ("", "none"), "ENT": ("Term", "hypr"),
             "H": ("Focus|←", "hypr"), "J": ("Focus|↓", "hypr"),
             "K": ("Focus|↑", "hypr"), "L": ("Focus|→", "hypr"),
-            "SCLN": ("", "none"),
+            "SCLN": ("Lock", "hypr"),
             "N": ("Notifs", "hypr"), "M": ("Mixer", "hypr"), "COMM": ("", "none"),
             "DOT": ("", "none"), "SLSH": ("", "none"),
             "LSIDE2": ("Glance", "hypr"), "RSIDE1": ("HUD|toggle", "hypr"),
