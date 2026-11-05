@@ -1,166 +1,174 @@
-# Killer Whale ビルドガイド スタートページ（[English](doc/README_EN.md)）
+# Killer Whale Build Manual First Page（[日本語](doc/README_JA.md)）
 
-1. スタートページ（このページ）
-2. [ベースユニットの組み立て](doc/右手用/2_ベースユニット.md)
-3. [側面ユニットの組み立て](doc/右手用/3_側面ユニット_トラックボール.md)
-4. [天面ユニットの組み立て](doc/右手用/4_天面ユニット.md)
-5. [追加ユニットの組み立て](doc/右手用/5_追加ユニット.md)
-6. [全体の組み立て](doc/右手用/6_全体の組み立て.md)
-7. [カスタマイズ](doc/右手用/7_カスタマイズ.md)
-8. [その他](doc/右手用/8_その他.md)
-
+1. Start Page
+2. [BASE Unit](doc/rightside/2_BASE.md)
+3. [SIDE Unit](doc/rightside/3_SIDE_TRACKBALL.md)
+4. [TOP Unit](doc/rightside/4_TOP.md)
+5. [ADD Unit](doc/rightside/5_ADD.md)
+6. [Assemble](doc/rightside/6_ASSEMBLE.md)
+7. [Customize](doc/rightside/7_CUSTOM.md)
+8. [Misc](doc/rightside/8_MISC.md)
 
 ![](doc/img/1_start/1_0_overall.jpg)
 
 > [!NOTE]
-> 2025年5月下旬より一部の部品が3Dプリンター製に置き換わりました。写真や作例と差異がある場合があります。
+> Some parts have been replaced by 3D printer-made parts from late May 2025. There may be differences from photographs and examples.
 
-大きな袋の中にスイッチプレートと6つの袋が入っています。
+There are 6 bag and switch plates included in the largest bag.
 ![](doc/img/1_start/1_1_full.jpg)
 
-## キット以外に必要なもの（片手分）
-
-リンクにはアフィリエイトリンクを含みます。
-
-|部品名|数||
-|-|-|-|
-|キースイッチ|26〜30|Cherry MX互換、[遊舎工房](https://shop.yushakobo.jp/collections/cherry-mx-clone)、[TALPKEYBOARD](https://shop.talpkeyboard.com/collections/keyswitch?ref=tarohayashi)|
-|キーキャップ|26〜30|Cherry MX互換、[遊舎工房](https://shop.yushakobo.jp/collections/keycaps)、[TALPKEYBOARD](https://shop.talpkeyboard.com/collections/keycaps?ref=tarohayashi)|
-|Type-C USBケーブル|1||
-|34mm トラックボール|0~1|[遊舎工房](https://shop.yushakobo.jp/products/8020)、[Amazon](https://www.amazon.co.jp/gp/product/B07BDGSX5X)|
-
-![](doc/img/1_start/1_2_additional_required.jpg)
-### オプション（片手分）
+## Additionally Required (quantities for or one side)
 <table>
     <tr>
-      <td><a href="https://shop.yushakobo.jp/products/oled">OLEDモジュール</a></td>
-      <td>1〜2</td>
-      <td>通常は1個、予備の側面ユニットにも付けるならもう1個</td>
+      <td>MX switches</td>
+       <td>between 26 and 30</td>
     </tr>
     <tr>
-      <td>ピンソケット4ピン分</td>
-      <td>1〜2</td>
-      <td>OLEDモジュールを付け外しする場合</td>
+      <td>Keycaps</td>
+      <td>between 26 and 30</td>
     </tr>
     <tr>
-      <td><a href="https://shop.yushakobo.jp/products/sk6812mini-e-10">LED（SK6812MINI-E)</a></td>
-      <td>30〜36</td>
-      <td>通常は33個、追加ユニットなしで30個、予備の側面ユニットに3個</td>
-    </tr>
-    <tr>
-      <td><a href="https://shop.yushakobo.jp/products/trrs_cable">TRS、TRRSケーブル</a></td>
+      <td>Type-C USB cable</td>
        <td>1</td>
-      <td>2台を繋げて左右分割キーボードとして使用できます。  </td>
+    </tr>
+    <tr>
+      <td>34mm Trackball</td>
+       <td>0 or 1</td>
     </tr>
  </table>
+
+![](doc/img/1_start/1_2_additional_required.jpg)
+### Optional Parts (quantities for one side)
+<table>
+    <tr>
+      <td>OLED Display module</td>
+      <td>1 or 2</td>
+      <td>Normally just one, but you can add one more to the side unit</td>
+    </tr>
+    <tr>
+      <td>Pin socket 4pin</td>
+      <td>1 or 2</td>
+      <td>If you want to pull out OLED module.</td>
+    </tr>
+    <tr>
+      <td>LEDs (SK6812MINI-E)</td>
+      <td>Between 30 and 36</td>
+      <td>Normally 33, or just 30 without the additional unit, and 3 more for the side unit</td>
+    </tr>
+    <tr>
+      <td>TRS or TRRS Cable</td>
+       <td>1</td>
+       <td>Used to connect the left and right parts of the keyboard</td>
+    </tr>
+</table>
 
 ![](doc/img/1_start/1_3_optional_parts.jpg)
 
 
-### 必要な工具
-<table>
-    <tr>
-      <td>はんだごて</td>
-    </tr>
-    <tr>
-      <td>はんだ</td>
-    </tr>
-    <tr>
-      <td>ピンセット</td>
-    </tr>
-    <tr>
-      <td>ニッパー</td>
-    </tr>
-    <tr>
-      <td>カッター</td>
-    </tr>
-    <tr>
-      <td>やすり</td>
-    </tr>
-    <tr>
-      <td>精密ドライバー</td>
-    </tr>
-    <tr>
-      <td>ナットをしめるもの（ラジオペンチ等）</td>
-    </tr>
- </table>
+### Optional Units (sold separately)
 
-
-### 別売ユニット
 ![](doc/img/1_start/1_4_optional_units.jpg)
-- https://tarohayashi.booth.pm/items/4877491
+https://tarohayashi.booth.pm/items/4877491
 
-### 別売3Dプリンター製部品
+### Optional 3D Printed Parts (sold separately)
+
 ![](doc/img/1_start/1_4_1_ballcase.jpg)
 - https://tarohayashi.booth.pm/items/6485486
 
-### 3Dプリント品データ
-- https://github.com/Taro-Hayashi/KillerWhale/blob/main/doc/3DP.md
+### 3D Printed Parts Data
 
-### 色違いのアクリルプレート
+https://github.com/Taro-Hayashi/KillerWhale/blob/main/doc/3DP_EN.md
+
+![](doc/img/1_start/1_3_optional_parts.jpg)
+https://github.com/Taro-Hayashi/KillerWhale/blob/main/doc/3DP_EN.md
+
+
+
+### Optional Acrylic Plates
 <table>
     <tr>
-        <td><a href="https://shop.yushakobo.jp/products/keyboard_acrylic_plate?variant=47873651245287">左手用</a></td>
-        <td><a href="https://shop.yushakobo.jp/products/keyboard_acrylic_plate?variant=47873651278055">右手用</a></td>
-        <td><a href="https://shop.yushakobo.jp/products/keyboard_acrylic_plate?variant=47873651310823">支柱</a></td>
-    </tr>
- </table>
-
-### そのほか対応しているもの
-<table>
-    <tr>
-      <td><a href="https://shop.yushakobo.jp/products/31?variant=40815840067745">コンスルー20ピン 2.5mm</a></td>
+      <td><a href="https://shop.yushakobo.jp/products/keyboard_acrylic_plate?variant=47873651245287">LEFT Side</a></td>
     </tr>
     <tr>
-      <td>ゲームボーイの十字キー</td>
+      <td><a href="https://shop.yushakobo.jp/products/keyboard_acrylic_plate?variant=47873651278055">RIGHT Side</a></td>
     </tr>
     <tr>
-      <td><a href="https://booth.pm/ja/items/5410034">3Dプリンター製ケース（Training&KBD様作）</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://nankatsukurouyo.myportfolio.com/killerwhale">トラックボールケース3Dプリントデータ（せう様作）</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://booth.pm/ja/items/5341402">Killer Whale Keyboard trackball case（NHRD様作）</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://booth.pm/ja/items/5676575">UndertowとUndertow Alterna</a></td>
+      <td><a href="https://shop.yushakobo.jp/products/keyboard_acrylic_plate?variant=47873651310823">Pillars</a></td>
     </tr>
  </table>
 
 
-## 準備
+### 3D Printed Cases (made by Training&KBD)
+- https://booth.pm/ja/items/5410034
 
-### 3Dプリンター製部品の確認
-以下の部品が入っている袋があることを確認します（ナット締め器が同梱されていることがあります）。
-![](doc/img/1_start/IMG_3411.jpg)
+### 3D Printed Trackball Case  (made by thw)
+- https://nankatsukurouyo.myportfolio.com/killerwhale
 
-### スイッチプレートの切り離し
-スイッチプレートは繋がった状態で入っていて切り離して使います。
+### Killer Whale Keyboard trackball case  (made by NHRD)
+- https://nankatsukurouyo.myportfolio.com/killerwhale
+
+### Undertow
+- https://booth.pm/ja/items/5676575
+
+### Required tools and consumables
+<table>
+    <tr>
+      <td>Soldering iron</td>
+    </tr>
+    <tr>
+      <td>Solder</td>
+    </tr>
+    <tr>
+      <td>Tweezers</td>
+    </tr>
+    <tr>
+      <td>Nipper</td>
+    </tr>
+    <tr>
+      <td>Cutter</td>
+    </tr>
+    <tr>
+      <td>File (for sanding)</td>
+    </tr>
+    <tr>
+      <td>Precision screwdriver (cross/Philipps type)</td>
+    </tr>
+    <tr>
+      <td>Tool for tightening nuts (radio pliers, M2 spanner)</td>
+    </tr>
+ </table>
+
+## Preparations
+### Confirmation of parts made by 3D printer
+Make sure the following components are included in one of the bag.
+![](doc/img/1_start/IMG_3411.jpg)]
+### Detach the switch plates
+Switch plates are initially attached, and must be separated.
 ![](doc/img/1_start/1_5_switch_plate.jpg)
-カッターで切れ目を入れ折って切り離します。
+Make a cut with a cutter, and separate by bending the plates.
 ![](doc/img/1_start/1_6_cut_plate.jpg)
-断面はやすりで綺麗にします。
+Sand the side with a file.
 ![](doc/img/1_start/1_7_sanding.jpg)
-削った粉がコネクタ類やトラックボールのセンサーに入り込まないようにここで一度服を払ったり机の上の掃除をすると安心です。
+After sanding, make sure to clean your bench and brush off residues from you clothes to prevent them from getting inside connectors or trackball sensor.
 ![](doc/img/1_start/1_8_switch_plates.jpg)
-それぞれのユニットのビルドガイドでスイッチプレートとして使います。
+Switch plates will be used in the build guide of each unit.
 
-## テスト用ファームウェアを書き込む
-こちらのファイルをダウンロードしてください。
+## Write Testing firmware
+Download the following uf2 file.
 - [tarohayashi_killerwhale_solo_test.uf2
 ](https://github.com/Taro-Hayashi/KillerWhale/releases/latest/download/tarohayashi_killerwhale_solo_test.uf2)
 
-Raspberry Pi PicoのBOOTSELボタン押しながらUSBケーブルでPCと接続すると、RPI-RP2というUSBメモリとして認識されます。
+Connect the Raspberry Pi Pico to the PC while holding down the BOOTSEL button, it will be recognized as a USB memory device called RPI-RP2.
+
 ![](doc/img/1_start/1_9_raspberry_pi_pico.jpg)
 ![](doc/img/1_start/1_10_rpi_rp2.jpg)
-ダウンロードしたファイルをドラッグ&ドロップしてドライブが自動的に消えたら成功です。
-書き込みが終わったら一旦USBケーブルは外します。
+After downloading the uf2 file, drag and drop the file to the USB drive. If the drive disappears, flashing was successful.
+After flashing, disconnect the USB cable.
 
-### 左右を決める
-キットを左右どちらで作るか決めてベースユニットの組み立てに進みます。
-- [ベースユニット 左手用](doc/左手用/2_ベースユニット.md)
-- [ベースユニット 右手用](doc/右手用/2_ベースユニット.md)
+### Decide to build left or right side
+Decide if you build the left or right side of the keyboard and proceed to BASE Unit page.
+- [BASE Unit LEFT Side](doc/leftside/2_BASE.md)
+- [BASE Unit RIGHT Side](doc/rightside/2_BASE.md)
 
 > [!NOTE]
-> 左右のビルドガイドの違いは写真だけですが間違えやすいので合った側を見るのがおすすめです。
+> The only differences between the left and right build guides are the pictures, but since it is easy to make mistakes, it is recommended to follow the right build guide.

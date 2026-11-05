@@ -1,6 +1,6 @@
 # Killer Whale Customize
 
-1. [Start Page](../README_EN.md)
+1. [Start Page](../../README.md)
 2. [BASE Unit](../rightside/2_BASE.md)
 3. [SIDE Unit](../rightside/3_SIDE_TRACKBALL.md)
 4. [TOP Unit](../rightside/4_TOP.md)

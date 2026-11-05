@@ -1,6 +1,6 @@
 # Killer Whale SIDE Unit Wheel LEFT Side Build Manual （[RIGHT Side](../rightside/3_SIDE_WHEEL.md)）
 
-1. [First Page](../README_EN.md)
+1. [First Page](../../README.md)
 2. [BASE Unit](../leftside/2_BASE.md)
 3. SIDE Unit
    - [Trackball](../leftside/3_SIDE_TRACKBALL.md)

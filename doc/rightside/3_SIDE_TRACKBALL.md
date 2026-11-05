@@ -1,6 +1,6 @@
 # Killer Whale SIDE Unit Trackball RIGHT Side Build Manual （[See LEFT Side there](../leftside/3_SIDE_TRACKBALL.md)）
 
-1. [Start Page](../README_EN.md)
+1. [Start Page](../../README.md)
 2. [BASE Unit](../rightside/2_BASE.md)
 3. SIDE Unit
    - Trackball RIGHT Side (this page)
